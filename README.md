@@ -1,1 +1,1 @@
-Amy Li's personal website.
+Personal website
