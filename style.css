@@ -34,8 +34,6 @@ body{
 }
 
 #nav{
-	/*padding-left: 25px;
-	padding-right: 300px;*/
 	padding-top: 7px;
 	padding-bottom: 7px;
 	/*background: #D3D3D3;*/
@@ -71,17 +69,23 @@ body{
 	background: #F0F8FF;
 	font-size: 20px;
 	text-align: center;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#blurb{
+	font-size: 19px;
+	font-weight: normal;
 }
 
 #summer19{
 	display: block;
 	margin: auto;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 40px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 50px;
 	font-size: 19px;
+	font-weight: bold;
 	align: center;
 }
 
@@ -89,31 +93,34 @@ body{
 	width: 300px;
 	padding-right: 30px;
 	align: center;
+	padding-bottom: 20px;
 }
 
 #summer18{
 	display: block;
 	margin: auto;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 130px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 200px;
 	font-size: 19px;
+	font-weight: bold;
 	align: center;
 }
 
 #nysc{
 	width: 300px;
-	padding-left: 0px;
+	padding-left: 30px;
 	align: center;
 }
 
 #summer17{
 	display: block;
 	margin: auto;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 200px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 200px;
 	font-size: 19px;
+	font-weight: bold;
 	align: center;
 }
 
@@ -126,27 +133,29 @@ body{
 #summer16{
 	display: block;
 	margin: auto;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 200px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 200px;
 	font-size: 19px;
+	font-weight: bold;
 	align: center;
 }
 
 #gwc1{
 	width: 300px;
-	padding-left: 0px;
+	padding-left: 30px;
 	align: center;
 }
 
 #gwc{
 	display: block;
 	margin: auto;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 200px;
+	padding-bottom: 170px;
 	font-size: 19px;
+	font-weight: bold;
 	align: center;
 }
 
@@ -165,14 +174,12 @@ body{
 }
 
 #profile {
-	/*top: 200px;
-	left: 100px;*/
 	padding-left: 50px;
 	padding-right: 50px;
-	/*width: 200px;
-	height: 200px;*/
-	width: 26%;
-	height: 26%;
+	margin-bottom: 5px;
+	width: 303px;
+	height: 200px;
+	display: inline-block;
 }
 
 #nav a{
@@ -195,52 +202,8 @@ body{
 
 responsive{
 	align-content: center;
-	/*align-items: center;
-	padding-left: 5%;
-	padding-right: 5%;*/
-}
-/*
-div.gallery {
-  border: 1px solid #ccc;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
- 	width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.grid {
-  padding: 0 6px;
-  float: left;
-  width: 100%;
-}
-
-@media only screen and (max-width: 500px) {
-	.grid {
-	  width: 100%;
-	  margin: 6px 0;
-	}
-}
-
-@media only screen and (max-width: 200px) {
-	.grid {
-		width: 100%;
-	}
-}
-*/
 .clearfix:after {
   content: "";
   display: flex;
@@ -248,15 +211,10 @@ div.desc {
 
 }
 
-}
-
-
 #rig {
-		/*padding-left: 150px;
-		padding-right: 150px;*/
     max-width:900px;
     margin:200 auto; /*center aligned*/
-    padding:0;
+    padding: 0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
     list-style:none;
     background-color:#000;
@@ -357,18 +315,37 @@ div.desc {
 			padding-right: 200px;
 		}*/
     #rig li {
-        width:25%;
+        width:23.5%;
     }
 }
 
 @media (max-width: 700px) {
     #rig li {
-        width:33.33%;
+        width:31%;
     }
 }
 
 @media (max-width: 550px) {
     #rig li {
-        width:50%;
+        width:47%;
     }
+}
+
+@media (max-width: 300px) {
+    #rig li {
+        width:95%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #rig li {
+        width:95%;
+    }
+}
+
+@media only screen
+and (max-device-width: 600px) {
+	#rig li {
+			width:95%;
+	}
 }
