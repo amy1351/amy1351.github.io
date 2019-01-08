@@ -566,6 +566,8 @@ and (max-device-width: 600px) {
 	}
 
 	#endeavors{
+		margin-top: 10%;
+		margin-bottom: 10%;
 		background: #F0F8FF;
 		font-size: 35px;
 		text-align: center;
