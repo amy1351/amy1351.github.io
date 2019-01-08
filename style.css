@@ -103,7 +103,7 @@ body{
 	margin: auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	margin-top: 200px;
+	margin-top: 150px;
 	font-size: 19px;
 	font-weight: bold;
 	align: center;
@@ -120,7 +120,7 @@ body{
 	margin: auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	margin-top: 200px;
+	margin-top: 150px;
 	font-size: 19px;
 	font-weight: bold;
 	align: center;
@@ -137,7 +137,7 @@ body{
 	margin: auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	margin-top: 200px;
+	margin-top: 150px;
 	font-size: 19px;
 	font-weight: bold;
 	align: center;
@@ -154,7 +154,7 @@ body{
 	margin: auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	margin-top: 200px;
+	margin-top: 150px;
 	padding-bottom: 170px;
 	font-size: 19px;
 	font-weight: bold;
@@ -188,6 +188,37 @@ body{
 	display: inline-block;
 }
 
+#book_img{
+	width: 15%;
+	margin-left: 20%;
+}
+
+#movie_img{
+	width: 15%;
+	margin-left: 20%;
+}
+
+#podcast_img{
+	width: 15%;
+	margin-left: 20%;
+}
+
+#baking_img{
+	width: 15%;
+	margin-left: 20%;
+}
+
+#songs_img{
+	width: 15%;
+	margin-left: 20%;
+}
+
+#favorite{
+	font-size: 18px;
+	margin-left: 35%;
+	margin-right: 20%;
+}
+
 #nav a{
 	text-decoration: none;
 	font-size:22px;
@@ -208,6 +239,12 @@ body{
 
 responsive{
 	align-content: center;
+}
+
+#proj_description{
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: none;
 }
 
 .clearfix:after {
@@ -282,11 +319,12 @@ responsive{
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    /*background: #3DC0F1 url(img/link.png) no-repeat center 20%;*/
+		background: #646363 no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
-    transition:all 0.6s;
+    transition:all 0s;
 }
 
 #rig li:hover .rig-overlay {
@@ -296,7 +334,7 @@ responsive{
 /* captions */
 .rig-text {
     display:block;
-    padding:0 30px;
+    padding:0 10px;
     box-sizing:border-box;
     position:absolute;
     left:0;
@@ -306,13 +344,13 @@ responsive{
     font-size:18px;
     font-weight:bold;
     font-family: 'Oswald', sans-serif;
-    font-weight:normal!important;
-    top:40%;
+    /*font-weight:normal!important;*/
+    top:6%;
     color:white;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
     transform:translateY(-20px);
-    transition:all .3s;
+    transition:all 0s;
 }
 #rig li:hover .rig-text {
     transform:translateY(0px);
@@ -329,7 +367,95 @@ responsive{
     }
 }
 
+@media (max-width: 1000px) {
+	#proj_description{
+		font-size: 12px;
+		font-weight: normal;
+		text-transform: none;
+	}
+
+	/* captions */
+	.rig-text {
+			display:block;
+			padding:0 5px;
+			box-sizing:border-box;
+			position:absolute;
+			left:0;
+			width:100%;
+			text-align:center;
+			text-transform:capitalize;
+			font-size:15px;
+			font-weight:bold;
+			font-family: 'Oswald', sans-serif;
+			/*font-weight:normal!important;*/
+			top:6%;
+			color:white;
+			opacity:0;
+			filter:alpha(opacity=0);/*For older IE*/
+			transform:translateY(-20px);
+			transition:all .3s;
+	}
+
+	#book_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#movie_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#podcast_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#baking_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#songs_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#favorite{
+		margin-left: 30%;
+		margin-right: 10%;
+		font-size: 15px;
+	}
+}
+
 @media (max-width: 700px) {
+	#proj_description{
+		font-size: 12px;
+		font-weight: normal;
+		text-transform: none;
+	}
+
+	/* captions */
+	.rig-text {
+			display:block;
+			padding:0 5px;
+			box-sizing:border-box;
+			position:absolute;
+			left:0;
+			width:100%;
+			text-align:center;
+			text-transform:capitalize;
+			font-size:15px;
+			font-weight:bold;
+			font-family: 'Oswald', sans-serif;
+			/*font-weight:normal!important;*/
+			top:6%;
+			color:white;
+			opacity:0;
+			filter:alpha(opacity=0);/*For older IE*/
+			transform:translateY(-20px);
+			transition:all .3s;
+	}
     #rig li {
         width:31%;
     }
@@ -393,8 +519,8 @@ and (max-device-width: 600px) {
 		width: 100%;
 	}
 	#intro{
-			font-size: 35px;
-			padding-bottom: 80px;
+			font-size: 45px;
+			padding-bottom: 60px;
 	}
 	#nav a{
 		text-decoration: none;
@@ -558,4 +684,63 @@ and (max-device-width: 600px) {
 		height: 50%;
 		display: inline-block;
 	}
+
+	.rig-text {
+	    display:block;
+	    padding:0 20px;
+	    box-sizing:border-box;
+	    position:absolute;
+	    left:0;
+	    width:100%;
+	    text-align:center;
+	    text-transform:capitalize;
+	    font-size:30px;
+	    font-weight:bold;
+	    font-family: 'Oswald', sans-serif;
+	    /*font-weight:normal!important;*/
+	    top:10%;
+	    color:white;
+	    opacity:0;
+	    filter:alpha(opacity=0);/*For older IE*/
+	    transform:translateY(-20px);
+	    transition:all .3s;
+	}
+
+	#proj_description{
+		font-size: 30px;
+		font-weight: normal;
+		text-transform: none;
+	}
+
+	#book_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#movie_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#podcast_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#baking_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#songs_img{
+		width: 20%;
+		margin-left: 10%;
+	}
+
+	#favorite{
+		margin-left: 30%;
+		margin-right: 10%;
+		font-size: 30px;
+	}
+
 }
