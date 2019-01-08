@@ -567,7 +567,7 @@ and (max-device-width: 600px) {
 
 	#endeavors{
 		background: #F0F8FF;
-		font-size: 20px;
+		font-size: 35px;
 		text-align: center;
 		padding-top: 4px;
 		padding-bottom: 4px;
@@ -575,14 +575,15 @@ and (max-device-width: 600px) {
 
 	#blurb{
 		font-size: 35px;
-		font-weight: normal;
+		font-weight: normal
+		text-align: center;
 	}
 
 	#summer19{
 		display: block;
 		margin: auto;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 50px;
 		font-size: 20px;
 		font-weight: bold;
@@ -590,8 +591,10 @@ and (max-device-width: 600px) {
 	}
 
 	#microsoft{
-		width: 300px;
-		padding-right: 30px;
+		/*width: 300px;
+		padding-right: 30px;*/
+		width: 100%;
+		margin-bottom: 5%;
 		align: center;
 		padding-bottom: 20px;
 	}
@@ -599,8 +602,8 @@ and (max-device-width: 600px) {
 	#summer18{
 		display: block;
 		margin: auto;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 200px;
 		font-size: 20px;
 		font-weight: bold;
@@ -608,16 +611,16 @@ and (max-device-width: 600px) {
 	}
 
 	#nysc{
-		width: 300px;
-		padding-left: 30px;
+		width: 100%;
+		margin-bottom: 5%;
 		align: center;
 	}
 
 	#summer17{
 		display: block;
 		margin: auto;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 200px;
 		font-size: 20px;
 		font-weight: bold;
@@ -625,16 +628,16 @@ and (max-device-width: 600px) {
 	}
 
 	#expedia{
-		width: 300px;
-		padding-right: 30px;
+		width: 100%;
+		margin-bottom: 5%;
 		align: center;
 	}
 
 	#summer16{
 		display: block;
 		margin: auto;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 200px;
 		font-size: 20px;
 		font-weight: bold;
@@ -642,16 +645,16 @@ and (max-device-width: 600px) {
 	}
 
 	#gwc1{
-		width: 300px;
-		padding-left: 30px;
+		width: 100%;
+		margin-bottom: 5%;
 		align: center;
 	}
 
 	#gwc{
 		display: block;
 		margin: auto;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 200px;
 		padding-bottom: 170px;
 		font-size: 20px;
@@ -660,8 +663,8 @@ and (max-device-width: 600px) {
 	}
 
 	#gwcclub{
-		width: 300px;
-		padding-right: 30px;
+		width: 100%;
+		margin-bottom: 5%;
 		align: center;
 	}
 
@@ -676,13 +679,21 @@ and (max-device-width: 600px) {
 	#profile {
 		/*top: 200px;
 		left: 100px;*/
-		padding-left: 50px;
-		padding-right: 50px;
+		/*padding-left: 50px;
+		padding-right: 50px;*/
 		/*width: 303px;
 		height: 200px;*/
-		width: 50%;
-		height: 50%;
-		display: inline-block;
+		width: 70%;
+		height: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 5%;
+		/*display: inline-block;*/
+		align-items: center;
+	}
+
+	#introduction{
+		font-size: 45px;
 	}
 
 	.rig-text {
@@ -713,34 +724,34 @@ and (max-device-width: 600px) {
 	}
 
 	#book_img{
-		width: 20%;
-		margin-left: 10%;
+		width: 30%;
+		margin-left: 8%;
 	}
 
 	#movie_img{
-		width: 20%;
-		margin-left: 10%;
+		width: 30%;
+		margin-left: 8%;
 	}
 
 	#podcast_img{
-		width: 20%;
-		margin-left: 10%;
+		width: 30%;
+		margin-left: 8%;
 	}
 
 	#baking_img{
-		width: 20%;
-		margin-left: 10%;
+		width: 30%;
+		margin-left: 8%;
 	}
 
 	#songs_img{
-		width: 20%;
-		margin-left: 10%;
+		width: 30%;
+		margin-left: 8%;
 	}
 
 	#favorite{
-		margin-left: 30%;
-		margin-right: 10%;
-		font-size: 30px;
+		margin-left: 38%;
+		margin-right: 8%;
+		font-size: 35px;
 	}
 
 }
