@@ -65,6 +65,12 @@ body{
 
 #github{
 	color: gray;
+	padding-right: 5px;
+}
+
+#resume{
+	color: gray;
+	padding
 }
 
 #endeavors{
@@ -256,6 +262,7 @@ responsive{
 
 }
 
+
 #rig {
 		/*padding-left: 150px;
 		padding-right: 150px;*/
@@ -281,6 +288,12 @@ responsive{
     box-sizing: border-box;
     margin:0;
 		padding: 0;
+}
+
+#name{
+	color: #4682B4;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 /* The wrapper for each item */
@@ -539,7 +552,6 @@ and (max-device-width: 600px) {
 		text-decoration: underline;
 	}
 
-
 	responsive{
 		align-content: center;
 	}
@@ -711,7 +723,7 @@ and (max-device-width: 600px) {
 	    font-weight:bold;
 	    font-family: 'Oswald', sans-serif;
 	    /*font-weight:normal!important;*/
-	    top:10%;
+	    top:8%;
 	    color:white;
 	    opacity:0;
 	    filter:alpha(opacity=0);/*For older IE*/
@@ -720,9 +732,13 @@ and (max-device-width: 600px) {
 	}
 
 	#proj_description{
-		font-size: 30px;
+		font-size: 28px;
 		font-weight: normal;
 		text-transform: none;
+	}
+
+	#name{
+		font-size: 40px;
 	}
 
 	#book_img{
@@ -756,4 +772,7 @@ and (max-device-width: 600px) {
 		font-size: 35px;
 	}
 
+	#resume{
+		width: 100%;
+	}
 }
