@@ -323,6 +323,10 @@ responsive{
     transform:scale(1.05);
 }
 
+#rig li:onclick .rig-img {
+    transform:scale(1.05);
+}
+
 /* If have the overlay layer */
 .rig-overlay {
     position: absolute;
@@ -341,6 +345,10 @@ responsive{
 }
 
 #rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+#rig li:onclick .rig-overlay {
     opacity:0.8;
 }
 
@@ -366,6 +374,11 @@ responsive{
     transition:all 0s;
 }
 #rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+#rig li:onclick .rig-text {
     transform:translateY(0px);
     opacity:0.9;
 }
@@ -729,6 +742,10 @@ and (max-device-width: 600px) {
 	    filter:alpha(opacity=0);/*For older IE*/
 	    transform:translateY(-20px);
 	    transition:all .3s;
+	}
+
+	#rig li:onclick .rig-overlay {
+	    opacity:0.8;
 	}
 
 	#proj_description{
