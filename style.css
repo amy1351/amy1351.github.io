@@ -9,6 +9,13 @@ h1{
 	background-size: 100%;
 }
 
+h2{
+	border-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 50px;
+}
+
 body{
 	margin: 0px;
 }
@@ -209,6 +216,21 @@ body{
 	height: 200px;
 	display: inline-block;
 }
+
+#inner_resume {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: table;
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 60%;
+  }
+  
+#outer_resume {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
 
 #book_img{
 	width: 15%;
