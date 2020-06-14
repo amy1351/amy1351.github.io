@@ -282,8 +282,6 @@ responsive{
 
 }
 
-}
-
 
 #rig {
     max-width:900px;
@@ -313,7 +311,7 @@ responsive{
 }
 
 .underline-on-hover:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* The wrapper for each item */
@@ -812,5 +810,9 @@ and (max-device-width: 600px) {
 
 	#resume{
 		width: 100%;
+	}
+
+	.underline-on-hover:hover {
+		text-decoration: underline;
 	}
 }
