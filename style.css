@@ -200,12 +200,16 @@ body{
 	align: center;
 }
 
-#footer{
+#footer {
 	padding-top: 0.1px;
 	padding-bottom: 0.1px;
 	padding-left: 5px;
 	background: #F0F8FF;
 	font-size: 16px;
+}
+
+#hit_counter {
+	padding-bottom: 10px;
 }
 
 #profile {
@@ -265,7 +269,7 @@ body{
 }
 
 
-responsive{
+.responsive{
 	align-content: center;
 }
 
@@ -561,7 +565,7 @@ and (max-device-width: 600px) {
 		text-decoration: underline;
 	}
 
-	responsive{
+	.responsive{
 		align-content: center;
 	}
 
