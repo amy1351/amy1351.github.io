@@ -312,6 +312,10 @@ responsive{
 	font-weight: bold;
 }
 
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
+
 /* The wrapper for each item */
 .rig-cell {
     margin:12px;
