@@ -48,8 +48,9 @@ body{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 30px;
-	font-size: 20px;
+	font-size: 19px;
 	padding-bottom: 112px;
+	/*font-family: helvetica;*/
 	/*color: #181818;*/
 }
 
@@ -86,6 +87,40 @@ body{
 	font-weight: normal;
 }
 
+#summer20{
+	display: block;
+	margin: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	align: center;
+}
+
+#microsoft_intern{
+	width: 300px;
+	padding-right: 30px;
+	align: center;
+}
+
+#ghc19{
+	display: block;
+	margin: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 150px;
+	font-size: 19px;
+	font-weight: bold;
+	align: center;
+}
+
+#ghc{
+	width: 300px;
+	padding-left: 30px;
+	align: center;
+}
+
 #summer19{
 	display: block;
 	margin: auto;
@@ -101,7 +136,6 @@ body{
 	width: 300px;
 	padding-right: 30px;
 	align: center;
-	padding-bottom: 20px;
 }
 
 #summer18{
@@ -602,8 +636,42 @@ and (max-device-width: 600px) {
 
 	#blurb{
 		font-size: 35px;
-		font-weight: normal
+		font-weight: normal;
 		text-align: center;
+	}
+
+	#summer20{
+		display: block;
+		margin: auto;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: 50px;
+		font-size: 20px;
+		font-weight: bold;
+		align: center;
+	}
+
+	#microsoft_intern{
+		width: 100%;
+		margin-bottom: 5%;
+		align: center;
+	}
+
+	#ghc19{
+		display: block;
+		margin: auto;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: 50px;
+		font-size: 20px;
+		font-weight: bold;
+		align: center;
+	}
+
+	#ghc{
+		width: 100%;
+		margin-bottom: 5%;
+		align: center;
 	}
 
 	#summer19{
@@ -618,12 +686,9 @@ and (max-device-width: 600px) {
 	}
 
 	#microsoft{
-		/*width: 300px;
-		padding-right: 30px;*/
 		width: 100%;
 		margin-bottom: 5%;
 		align: center;
-		padding-bottom: 20px;
 	}
 
 	#summer18{
