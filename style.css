@@ -47,6 +47,28 @@ body{
 	padding-bottom: 112px;
 }
 
+#research_intro{
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 19px;
+	padding-bottom: 50px;
+}
+
+#research_title{
+	text-align: center;
+	font-size: larger;
+}
+
+#research_links{
+	padding-top: 30px;
+	font-size: large;
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: left;
+}
+
 #linkedin{
 	color: gray;
 	padding-right: 5px;
@@ -75,9 +97,28 @@ body{
 	padding-bottom: 4px;
 }
 
+#research_reports{
+	background: #F0F8FF;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
 #blurb{
 	font-size: 19px;
 	font-weight: normal;
+}
+
+#research_link{
+	display: block;
+	margin: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	align: center;
 }
 
 #summer20{
@@ -246,6 +287,11 @@ body{
 	margin-left: 20%;
 }
 
+#favs{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 #favorite{
 	font-size: 18px;
 	margin-left: 35%;
@@ -288,7 +334,7 @@ body{
 
 
 #rig {
-    max-width:900px;
+    max-width:1200px;
     margin:200 auto; /*center aligned*/
     padding: 0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
