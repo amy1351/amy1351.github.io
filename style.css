@@ -283,6 +283,10 @@ body{
 	display: inline-block;
 }
 
+#inner_resume{
+	width: 50%;
+}
+
 #book_img{
 	width: 15%;
 	margin-left: 20%;
@@ -906,5 +910,11 @@ and (max-device-width: 600px) {
 	
 	.underline-on-hover:hover {
 		text-decoration: underline;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	#inner_resume{
+		width: 30%;
 	}
 }
