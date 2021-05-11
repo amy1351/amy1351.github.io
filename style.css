@@ -44,7 +44,7 @@ body{
 	padding-right: 50px;
 	padding-top: 30px;
 	font-size: 19px;
-	padding-bottom: 112px;
+	padding-bottom: 50px;
 }
 
 #research_intro{
@@ -119,6 +119,27 @@ body{
 	font-size: 19px;
 	font-weight: bold;
 	align: center;
+}
+
+#summer21{
+	display: block;
+	margin: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	align: center;
+}
+
+#winter21{
+	display: block;
+	margin: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 150px;
+	font-size: 19px;
+	font-weight: bold;
 }
 
 #summer20{
@@ -637,7 +658,7 @@ and (max-device-width: 600px) {
 	}
 
 	#endeavors{
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-bottom: 10%;
 		background: #F0F8FF;
 		font-size: 35px;
@@ -650,6 +671,27 @@ and (max-device-width: 600px) {
 		font-size: 35px;
 		font-weight: normal;
 		text-align: center;
+	}
+
+	#summer21{
+		display: block;
+		margin: auto;
+		padding-left: 15%;
+		padding-right: 15%;
+		margin-top: 50px;
+		font-size: 19px;
+		font-weight: bold;
+		align: center;
+	}
+	
+	#winter21{
+		display: block;
+		margin: auto;
+		padding-left: 15%;
+		padding-right: 15%;
+		margin-top: 150px;
+		font-size: 19px;
+		font-weight: bold;
 	}
 
 	#summer20{
